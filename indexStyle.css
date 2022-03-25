@@ -38,10 +38,11 @@ margin-top: 50px;
 }
     #col-1 > nav > div > div:hover{
     background-color:#eeeeee;
-    width:220px;
+    width:180px;
     border-radius: 20px 0px 0px 20px;
     color:black;
     margin-right:5px;
+    padding-left:10px;
     } 
 
 #col-1 > nav > div > div >.nav-link {
