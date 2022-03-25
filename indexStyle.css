@@ -27,7 +27,7 @@ width:10%;
     width:150px;
     }
     #col-1 > nav {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
     padding-left:0px;
     }
@@ -81,14 +81,14 @@ border-radius: 30px 0px 0px 0px;
 margin-left: 78%;
 padding-top: 17px;
 color:#353535;
-font-size:small;
-font-weight: bold;
+font-size:1em;
+
 }
  #supporImg{
 height:35px;
 position: relative;
-left:93%;
-bottom: 34px;
+left:95%;
+bottom: 38px;
  }
 
 
@@ -100,5 +100,61 @@ margin-top:20px;
 width:100%;
 }
 .col-md-2{
-
+    padding:20px;
+    margin-top:30px;
 }
+#col-01 >.col-md-6 > h2{
+    color:#353535;
+    font-weight: bold;
+    margin-top:40px;
+    padding-left: 50px;
+}
+#col-01 >.col-md-2 > #Export_Order{
+    text-decoration: none;
+    font-size:0.87em;
+    color:#ff4300;
+    margin-top: 35px;
+    margin-left: 48px;
+}
+#col-01 >.col-md-2 > #import_Order{
+    text-decoration: none;
+    font-size:0.87em;
+    color:#ff4300;
+    margin-top: 35px;
+    margin-left: 25px;
+    
+}
+#col-01 > .col-md-2 > button{
+    border-radius: 20px;
+    width:150px;
+    height:35px;
+    color:white;
+    background-color: #2ec00a;
+    border:solid 0px white; 
+}
+
+
+
+
+#col-02{
+    justify-content: space-around;
+    margin-top:20px;
+}
+.input-group{
+    width:250px;
+    margin-left: 50px;
+    box-shadow:1px 1px 10px #e0dcdc;
+    border-radius: 30px;
+}
+.input-group > input{
+    border-radius:30px 0px 0px 30px;
+}
+#button{
+    border-radius:0px 30px 30px 0px;
+    background-color:#ff4300;
+    color:white;
+}
+#buttonDrop{
+    border-radius: 50px;
+}
+
