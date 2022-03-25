@@ -137,8 +137,10 @@ width:100%;
 
 
 #col-02{
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top:20px;
+    width:100%;
+
 }
 .input-group{
     width:250px;
