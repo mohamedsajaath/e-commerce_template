@@ -157,8 +157,9 @@ width:100%;
     background-color:#ff4300;
     color:white;
 }
-#buttonDrop{
+.buttonDrop{
     border-radius: 50px;
+    box-shadow:1px 1px 10px #e0dcdc;
 }
 
 
@@ -168,9 +169,12 @@ width:100%;
     background-color: white;
     width:100%;
     border-radius: 0px 0px 0px 30px ;
+    height:40px;
+
 }
 #footerDiv > p{
     text-align: center;
+    margin:15px 15px;
 }
 .red-text{
     color:#ff4300;
