@@ -50,6 +50,8 @@ margin-top: 50px;
     color:#ff4300;
     background-color:#eeeeee;
     }
+
+
     #col-1 > nav > div > .nav_target::before{
         content:'';
         position:absolute;
@@ -83,6 +85,8 @@ margin-top: 50px;
         box-shadow: 20px 0px 0px #eeeeee;
     }
    
+
+    
 /* 2nd column */
 
 
