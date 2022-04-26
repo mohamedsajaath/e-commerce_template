@@ -6,20 +6,26 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row ">
       <div class="col-md-2" id="col-1">
         <nav id="navbar" class="main-grid1">
           <header> <img src="images/Logo.png" id="logo"></header>
           <div class="bbbb">
-            <a href="#" class="nav-link cls-1" onclick="activeNavElement(this)"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a>
-            <a href="#" class="nav-link cls-2" onclick="activeNavElement(this)"><i class="fa fa-barcode" aria-hidden="true"></i> Shipment</a>
-            <a href="#" class="nav-link cls-3" onclick="activeNavElement(this)"><i class="fa fa-cube" aria-hidden="true"></i> Inventory</a>
-            <a href="#" class="nav-link cls-4" onclick="activeNavElement(this)"><i class="fa fa-link" aria-hidden="true"></i> Channel</a>
-            <a href="#" class="nav-link cls-5" onclick="activeNavElement(this)"><i class="fa fa-cube" aria-hidden="true"></i> Orders</a>
+            <a href="#" class="nav-link cls-1" onclick="activeNavElement(this)"><i class="fa fa-tachometer"
+                aria-hidden="true"></i> Dashboard</a>
+            <a href="#" class="nav-link cls-2" onclick="activeNavElement(this)"><i class="fa fa-barcode"
+                aria-hidden="true"></i> Shipment</a>
+            <a href="#" class="nav-link cls-3" onclick="activeNavElement(this)"><i class="fa fa-cube"
+                aria-hidden="true"></i> Inventory</a>
+            <a href="#" class="nav-link cls-4" onclick="activeNavElement(this)"><i class="fa fa-link"
+                aria-hidden="true"></i> Channel</a>
+            <a href="#" class="nav-link cls-5" onclick="activeNavElement(this)"><i class="fa fa-cube"
+                aria-hidden="true"></i> Orders</a>
           </div>
         </nav>
       </div>
@@ -120,16 +126,239 @@
 
           </div>
 
-          <div class="container-fluid">
-            <div class="row">
+          <div class="container-fluid ">
+            <div class="row ">
 
-                <!-- --------this is for table-------- -->
+              <table class="table table-style">
+                <thead>
+                  <tr>
+                    <th scope="col" ><input type="checkbox" class="table-checkbox"></th>
+                    <th scope="col">Order Number</th>
+                    <th scope="col">Channel</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">SKU</th>
+                    <th scope="col">items(s)</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">ISO</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox" class="table-checkbox"></th>
+                    <td>HE168593176
+                      <div class="ord-num-div">
+                        <span class="ord-num-data">
+                          <p>Watch</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Electronic</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitbit</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Heartrate</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitness</p>
+                        </span>
+                      </div>
+                    </td>
+                    <td>Manual</td>
+                    <td>2022-05-05</td>
+                    <td>SM542</td>
+                    <td>25</td>
+                    <td>John Doe</td>
+                    <td>NP108Tb
+                      <div class="country-logo-div">
+                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
+                        GB
+                      </div>
+                    </td>
+                    <td>
+                      <div class="action-btn"><span class="material-icons action-icon">
+                          more_vert
+                        </span></div>
+                    </td>
+
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row"><input type="checkbox" class="table-checkbox"></th>
+                    <td>HE168593176
+                      <div class="ord-num-div">
+                        <span class="ord-num-data">
+                          <p>Watch</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Electronic</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitbit</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Heartrate</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitness</p>
+                        </span>
+                      </div>
+                    </td>
+                    <td>Manual</td>
+                    <td>2022-05-05</td>
+                    <td>SM542</td>
+                    <td>25</td>
+                    <td>John Doe</td>
+                    <td>NP108Tb
+                      <div class="country-logo-div">
+                        <img src="./images/france.png" height="15px" width="15px" style="border-radius: 20px;">
+                        GB
+                      </div>
+                    </td>
+                    <td>
+                      <div class="action-btn"><span class="material-icons action-icon">
+                          more_vert
+                        </span></div>
+                    </td>
+
+                  </tr>
+
+
+
+                  <tr>
+                    <th scope="row"><input type="checkbox" class="table-checkbox"></th>
+                    <td>HE168593176
+                      <div class="ord-num-div">
+                        <span class="ord-num-data">
+                          <p>Watch</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Electronic</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitbit</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Heartrate</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitness</p>
+                        </span>
+                      </div>
+                    </td>
+                    <td>Manual</td>
+                    <td>2022-05-05</td>
+                    <td>SM542</td>
+                    <td>25</td>
+                    <td>John Doe</td>
+                    <td>NP108Tb
+                      <div class="country-logo-div">
+                        <img src="./images/france.png" height="15px" width="15px" style="border-radius: 20px;">
+                        GB
+                      </div>
+                    </td>
+                    <td>
+                      <div class="action-btn"><span class="material-icons action-icon">
+                          more_vert
+                        </span></div>
+                    </td>
+
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row"><input type="checkbox" class="table-checkbox"></th>
+                    <td>HE168593176
+                      <div class="ord-num-div">
+                        <span class="ord-num-data">
+                          <p>Watch</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Electronic</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitbit</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Heartrate</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitness</p>
+                        </span>
+                      </div>
+                    </td>
+                    <td>Manual</td>
+                    <td>2022-05-05</td>
+                    <td>SM542</td>
+                    <td>25</td>
+                    <td>John Doe</td>
+                    <td>NP108Tb
+                      <div class="country-logo-div">
+                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
+                        GB
+                      </div>
+                    </td>
+                    <td>
+                      <div class="action-btn"><span class="material-icons action-icon">
+                          more_vert
+                        </span></div>
+                    </td>
+
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row"><input type="checkbox" class="table-checkbox"></th>
+                    <td>HE168593176
+                      <div class="ord-num-div">
+                        <span class="ord-num-data">
+                          <p>Watch</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Electronic</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitbit</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Heartrate</p>
+                        </span>
+                        <span class="ord-num-data">
+                          <p>Fitness</p>
+                        </span>
+                      </div>
+                    </td>
+                    <td>Manual</td>
+                    <td>2022-05-05</td>
+                    <td>SM542</td>
+                    <td>25</td>
+                    <td>John Doe</td>
+                    <td>NP108Tb
+                      <div class="country-logo-div">
+                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
+                        GB
+                      </div>
+                    </td>
+                    <td>
+                      <div class="action-btn"><span class="material-icons action-icon">
+                          more_vert
+                        </span></div>
+                    </td>
+
+                  </tr>
+
+
+                </tbody>
+              </table>
 
             </div>
           </div>
 
           <div id="footerDiv">
-            <p>CopyRight © 2019 <span class="red-text">HECT</span></p>
+            <p>CopyRight © <span id="year"></span> <span class="red-text">HECT</span></p>
           </div>
         </div>
 
@@ -144,8 +373,20 @@
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
 
-        <script src="indexStyle.js"></script>
+      <script src="indexStyle.js"></script>
     </footer>
+
+
+
+
+    <script>
+    document.getElementById('year').innerText= new Date().getFullYear() ;
+
+
+
+
+
+    </script>
 </body>
 
 </html>
