@@ -9,7 +9,7 @@ function activeNavElement(element){
     element.classList.add("nav_target");
  
 }
-
+let year = new Date().getFullYear();
 let dashboard = document.querySelector('.cls-1');
 let shipment = document.querySelector('.cls-2');
 let inventory = document.querySelector('.cls-3');
@@ -276,7 +276,7 @@ orders.addEventListener('click',() => {
   </div>
 
   <div id="footerDiv">
-    <p>CopyRight © <span id="year"></span> <span class="red-text">HECT</span></p>
+    <p>CopyRight © ${year} <span class="red-text">HECT</span></p>
   </div>
 </div>`;
 })
@@ -318,7 +318,7 @@ inventory.addEventListener('click',() => {
 
 
   <div id="footerDiv">
-    <p>CopyRight © <span id="year"></span> <span class="red-text">HECT</span></p>
+    <p>CopyRight © ${year} <span class="red-text">HECT</span></p>
   </div>`;
 })
 
