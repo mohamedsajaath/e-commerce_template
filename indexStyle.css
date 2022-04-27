@@ -124,13 +124,13 @@ body {
     padding-top: 17px;
     color: #353535;
     font-size: 1em;
-
+    font-weight: bold;
 }
 
 #supporImg {
     height: 35px;
     position: relative;
-    left: 95%;
+    left: 93.5%;
     bottom: 38px;
 }
 
@@ -147,15 +147,17 @@ body {
 
 
 .col-md-2 {
-    padding: 20px;
+    padding: 15px;
     margin-top: 30px;
 }
-
+#col-01{
+    width: 100.5%;
+}
 #col-01>.col-md-6>h2 {
     color: #353535;
     font-weight: bold;
     margin-top: 40px;
-    padding-left: 50px;
+    padding-left: 21.5px;
 }
 
 #col-01>.col-md-2>#Export_Order {
@@ -164,6 +166,7 @@ body {
     color: #ff4300;
     margin-top: 35px;
     margin-left: 48px;
+    font-weight: 500;
 }
 
 #col-01>.col-md-2>#import_Order {
@@ -172,6 +175,7 @@ body {
     color: #ff4300;
     margin-top: 35px;
     margin-left: 25px;
+    font-weight: 500;
 
 }
 
@@ -194,13 +198,13 @@ body {
 
 #col-02 {
     margin-top: 20px;
-    width: 100%;
+    width: 98%;
 
 }
 
 .input-group {
     width: 250px;
-    margin-left: 50px;
+    margin-left: 36px;
     box-shadow: 1px 1px 10px #e0dcdc;
     border-radius: 30px;
 }
@@ -222,7 +226,11 @@ outline: none;
     border-radius: 50px;
     box-shadow: 1px 1px 10px #e0dcdc;
 }
-
+.buttonDrop-date {
+    margin-left: 75px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px #e0dcdc;
+}
 
 
 /* table row */
@@ -230,12 +238,11 @@ outline: none;
 .table-style {
     background-color: #FFFFFF;
     box-shadow: 1px 1px 10px #e0dcdc;
-    width: 90%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 3.5%;
     margin-top: 30px;
     border-radius: 30px;
     padding: 10px;
-
     height: 500px;
 }
 
@@ -302,18 +309,19 @@ outline: none;
 
 
 
-/* th {
-  padding:0px;
-} */
-/* table{
 
-} */
 tr {
     height: 100px;
 }
 
-
-
+.action-btn-table-footer{
+    height:30px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #e0dcdc;
+    padding: 2px;
+    text-align: center;
+}
 
 /* footer row  */
 
