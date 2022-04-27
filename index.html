@@ -5,7 +5,8 @@
   <script src="https://use.fontawesome.com/01de1fe131.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="inventory.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
@@ -36,293 +37,25 @@
         </div>
 
         <div class="main-container">
-          <div class="container-fluid">
-            <div class="row" id="col-01">
 
-              <div class="col-md-6">
-                <h2>Orders</h2>
-              </div>
-              <div class="col-md-2">
-                <a href="" id="Export_Order">Export Order</a>
-              </div>
-              <div class="col-md-2">
-                <a href="" id="import_Order">Import Order</a>
-              </div>
-              <div class="col-md-2">
-                <button>Create Order</button>
-              </div>
-            </div>
-
-          </div>
-          <div class="container">
-            <div class="row" id="col-02">
-
-              <div class="col-md-4">
-                <div class="input-group">
-                  <input type="text" class="form-control" />
-                  <div class="input-group-append">
-                    <button class="form-control" id="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="col-md-1">
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle buttonDrop-date" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Date
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1">
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle buttonDrop" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    All Destinations
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-
-              </div>
-              <div class="col-md-1">
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle buttonDrop" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sales Channel
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1">
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle buttonDrop" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tags
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-          <div class="container-fluid ">
-            <div class="row ">
-
-              <table class="table table-style">
-                <thead>
-                  <tr>
-                    <th scope="col" style="padding-bottom: 30px;"><input type="checkbox" class="table-checkbox"></th>
-                    <th scope="col" style="padding-bottom: 30px;">Order Number</th>
-                    <th scope="col" style="padding-bottom: 30px;">Channel</th>
-                    <th scope="col" style="padding-bottom: 30px;">Date</th>
-                    <th scope="col" style="padding-bottom: 30px;">SKU</th>
-                    <th scope="col" style="padding-bottom: 30px;">items(s)</th>
-                    <th scope="col" style="padding-bottom: 30px;">Customer</th>
-                    <th scope="col" style="padding-bottom: 30px;">ISO</th>
-                    <th scope="col" style="padding-bottom: 30px;">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-
-                  <tr style="padding-top: 10px;">
-                    <th scope="row" style="padding-top: 50px;"><input type="checkbox" class="table-checkbox"></th>
-                    <td>HE168593176
-                      <div class="ord-num-div">
-                        <span class="ord-num-data">
-                          <p>Watch</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Electronic</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitbit</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Heartrate</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitness</p>
-                        </span>
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">Manual</td>
-                    <td style="padding-top: 50px;">2022-05-05</td>
-                    <td style="padding-top: 50px;">SM542</td>
-                    <td style="padding-top: 50px;">25</td>
-                    <td style="padding-top: 50px;">John Doe</td>
-                    <td style="padding-top: 50px;">NP108Tb
-                      <div class="country-logo-div">
-                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
-                        GB
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">
-                      <div class="action-btn"><span class="material-icons action-icon">
-                          more_vert
-                        </span></div>
-                    </td>
-
-                  </tr>
-
-
-
-
-
-                  <tr style="padding-top: 10px;">
-                    <th scope="row" style="padding-top: 50px;"><input type="checkbox" class="table-checkbox"></th>
-                    <td>HE168593176
-                      <div class="ord-num-div">
-                        <span class="ord-num-data">
-                          <p>Watch</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Electronic</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitbit</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Heartrate</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitness</p>
-                        </span>
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">Manual</td>
-                    <td style="padding-top: 50px;">2022-05-05</td>
-                    <td style="padding-top: 50px;">SM542</td>
-                    <td style="padding-top: 50px;">25</td>
-                    <td style="padding-top: 50px;">John Doe</td>
-                    <td style="padding-top: 50px;">NP108Tb
-                      <div class="country-logo-div">
-                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
-                        GB
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">
-                      <div class="action-btn"><span class="material-icons action-icon">
-                          more_vert
-                        </span></div>
-                    </td>
-
-                  </tr>
-
-
-                  <tr style="padding-top: 10px;">
-                    <th scope="row" style="padding-top: 50px;"><input type="checkbox" class="table-checkbox"></th>
-                    <td>HE168593176
-                      <div class="ord-num-div">
-                        <span class="ord-num-data">
-                          <p>Watch</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Electronic</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitbit</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Heartrate</p>
-                        </span>
-                        <span class="ord-num-data">
-                          <p>Fitness</p>
-                        </span>
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">Manual</td>
-                    <td style="padding-top: 50px;">2022-05-05</td>
-                    <td style="padding-top: 50px;">SM542</td>
-                    <td style="padding-top: 50px;">25</td>
-                    <td style="padding-top: 50px;">John Doe</td>
-                    <td style="padding-top: 50px;">NP108Tb
-                      <div class="country-logo-div">
-                        <img src="./images/united-kingdom.png" height="15px" width="15px" style="border-radius: 20px;">
-                        GB
-                      </div>
-                    </td>
-                    <td style="padding-top: 50px;">
-                      <div class="action-btn"><span class="material-icons action-icon">
-                          more_vert
-                        </span></div>
-                    </td>
-
-                  </tr>
-
-<!-- --------------table footer----------------- -->
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td style="padding-top: 30px; font-weight: 500;">Per page:</td>
-                    <td style="padding-top: 30px;">
-                      <div class="action-btn-table-footer">100</div>
-                    </td>
-
-                  </tr>
-
-
-                </tbody>
-              </table>
-
-            </div>
-          </div>
-
-          <div id="footerDiv">
-            <p>CopyRight © <span id="year"></span> <span class="red-text">HECT</span></p>
-          </div>
         </div>
 
       </div>
     </div>
-
-    <footer>
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
-
-      <script src="indexStyle.js"></script>
-    </footer>
-
-
-
-
     <script>
       document.getElementById('year').innerText = new Date().getFullYear();
-
-
-
-
-
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"></script>
+
+    <script src="indexStyle.js"></script>
+
+
+
 </body>
 
 </html>
